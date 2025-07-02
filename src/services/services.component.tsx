@@ -54,7 +54,7 @@ function Services() {
             sortable:false,
             filterable:false,
             hideable:false,
-            renderCell: (params) => (
+            renderCell: () => (
                 <div className="flex flex-row gap-2">
                     <EditIcon className="cursor-pointer" onClick={()=>{}}/>
                     <DeleteIcon className="cursor-pointer" onClick={()=>{}}/>
