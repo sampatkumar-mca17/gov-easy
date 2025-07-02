@@ -6,8 +6,6 @@ import useFetchHighlightedDays from './custom-hooks/useFetchHighlightedDays';
 import Calendaar from './components/Calendaar';
 import { Box, Card } from '@mui/material';
 import RecentBookings from '../shared-components/widgets/RecentBookings';
-import { useContext } from 'react';
-import { themeContext } from '../contexts/theme-context';
 import ActionDialog from '../shared-components/widgets/ActionDialog';
 import Header from '../shared-components/dummy-components/header.component';
 const initialValue = dayjs(new Date().toISOString());
