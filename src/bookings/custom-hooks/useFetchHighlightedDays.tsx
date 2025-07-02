@@ -1,7 +1,6 @@
 import type { Dayjs } from "dayjs";
 import { useState } from "react";
 import fakeFetch from "../services/api.service";
-import React from "react";
 
 function useFetchHighlightedDays() {
     const [highlightedDays, setHighlightedDays] = useState<number[]>([]);

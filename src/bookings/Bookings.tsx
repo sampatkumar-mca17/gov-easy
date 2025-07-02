@@ -15,7 +15,7 @@ const initialValue = dayjs(new Date().toISOString());
 function Bookings() {
   const requestAbortController = React.useRef<AbortController | null>(null);
   const {highlightedDays, fetchHighlightedDays, isLoading} = useFetchHighlightedDays();
-  const {darkTheme} = useContext(themeContext);
+
   const [open, setOpen] = React.useState(false);
   const [bookingDetails, setBookingDetails] = React.useState({id: '', department: '', service: '', date: '', status: '', userDetails: {name: '', email: '', phone: ''}});
 
